@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <!--Bootstrap css link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <title> Gaming Blog page </title>
+    <!--Bootstrap js link-->
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="UTF-8">
+</head>
+<body>
+     <!--Navigation Bar-->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+      <div class="container">
+        <!-- Navigation logo-->
+        <img src="images/logoblog.png" class="navbar-brand" alt="Logo" width="200px" height="80px" >
+        <button type="button"   class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Expand navbar">
+          <!--Navigation menu button-->
+          <div class="navbar-toggler-icon"></div>
+        </button>
+       <div class="collapse navbar-collapse" id="nav">
+        <ul class="navbar-nav p-1 ">
+          <li class="nav-item">
+            <a href="#" class="nav-link active" >Home</a>
+          </li>
+          
+          <li class="nav-item">
+            <a href="About.html" class="nav-link">About</a>
+          </li>
+          
+          
+          <li class="nav-item">
+            <a href="signup.html" class="nav-link btn btn-primary">Sign up</a>
+          </li>
+        </ul>
+       </div>
+      </div>
+      </nav>
+
+
+      <!--carousel banner part-->
+      <div id="carouselExampleIndicators-sm" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-controls="true" aria-label="slide1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="slide2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="slide3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img loading="lazy" src="images/Assassin Creed mirage.jpeg" class="d-block w-100 h-100" alt="">
+          </div>
+
+          <div class="carousel-item">
+            <img loading="lazy" src="images/sea of thieves.jpeg" class="d-block w-100 h-100" alt="">
+          </div>
+
+          <div class="carousel-item">
+            <img loading="lazy" src="images/the crew motorfest.jpeg" class="d-block w-100 h-100" alt="">
+          </div>
+        </div> 
+        <!--slider animation button-->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+         </button>
+
+         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+         </button>
+      </div>
+
+      <!--Blogs part-->
+
+      <section class="pt-md-5">
+        <h2 class="text-left my-3">Latest News</h2>
+       <!--container cards-->
+        <div class="container">
+          <div class="row gy-3">
+            <div class="col"> 
+
+        <!--card 1-->
+        <div class="card md-4 h-100 bg-dark">
+          <img loading="lazy" src="images/simstitle.jpeg" class="card-img-top" alt="..." >
+          <div class="card-body">
+            <div class="card-title text-success">Sims 4 Officially annouces Horse Ranch DLC New Trailer</div>
+          <p class="card-text text-light">The official Sims 4 account has confirmed with release of Horse Ranch DLC.</p>
+          <a href="BLOG POST.html" class="btn btn-warning">Read More..</a>
+        </div>
+        </div>
+        </div>
+
+        <!--card 2-->
+        <div class="col">
+        <div class="card md-4 h-100 bg-dark">
+          <img loading="lazy" src="images/mortal.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <div class="card-title text-success">Mortal Kombat Release date annouced.</div>
+          <p class="card-text text-light">Mortal Kombat release date, Trailers , Gameplay and much more..</p>
+          <a href="Mortal Kombat.html" class="btn btn-warning">Read More..</a>
+        </div>
+        </div>
+        </div>
+
+      
+       <!--card 3-->
+        <div class="col">
+        <div  class="card md-4 h-100 bg-dark">
+          <img loading="lazy" src="images/sea of thieves.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <div class="card-title text-success">Sea of Thieves- Annoucement trailer </div>
+          <p class="card-text text-light">Sea of Thieves:The legend of monkey island</p>
+          <a href="Sea of Thieves.html" class="btn btn-warning">Read More..</a>
+        </div>
+        </div>
+        </div>
+
+        <!--card 4-->
+        <div class="col">
+          <div class="card md-4 h-100 bg-dark">
+            <img loading="lazy" src="images/the crew motorfest.jpeg" class="card-img-top"  alt="...">
+            <div class="card-body">
+              <div class="card-title text-success">The Crew Motorfest with a launch date</div>
+            <p class="card-text text-light">Ubisoft has confirmed the Crew Motorfest launch on Sep 14,2023.</p>
+            <a href="Crew Motorfest.html" class="btn btn-warning">Read More..</a>
+          </div>
+          </div>
+          </div>
+          
+          <!--card 5-->
+          <div class="col">
+          <div class="card md-4 h-100 bg-dark">
+            <img loading="lazy" src="images/Assassin Creed mirage.jpeg" class="card-img-top" alt=".." >
+            <div class="card-body">
+              <div class="card-title text-success">Assassin's Creed mirage : Release Date</div>
+            <p class="card-text text-light">Assassin's Creed Mirage will release on Oct 12,2023.</p>
+            <a href="Assassin Creed.html" class="btn btn-warning">Read More..</a>
+          </div>
+          </div>
+          </div>
+          
+
+        </div>
+          </div>
+        
+        
+      </section>
+
+     <!--Subscribe bar-->
+
+     <section style="background-color: grey; padding:5px ;">
+      <h3 class="text-center">Subscribe to our Newsletter to our updates.</h3>
+      <div class="container">
+      <span class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="E-mail Address" aria-label="E-mail Address" aria-describedby="button-addon2">
+        <button class="btn btn-primary" type="button" id="button-addon2">Subscribe</button>
+      </span>
+      </div>
+     </section>
+
+    <!-- Footer bar-->
+    <footer class="bg-dark py-5 mt-5">
+      <div class="container text-light text-center">
+        <p class="display-5 mb-3">Plethora Blogs</p>
+        <small class="text-white-50">&copy;Plethora  2023. All rights reserved</small>
+      </div>
+    </footer>
+    </body>
+</html>
